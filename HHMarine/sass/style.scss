@@ -15,11 +15,24 @@
 
 #main-footer {
   // only using one column footer - want it center
+  //margin-top: -400px;
   #footer-widgets {
+    //padding-top: 0px;
     .et_pb_widget {
       width: 100%;
     }
   }
+  #footer-bottom {
+    position: relative;
+  }
 }
-
+body.home {
+  #main-footer {
+    // only using one column footer - want it center
+    margin-top: -400px;
+    #footer-widgets {
+      padding-top: 0px;
+    }
+  }
+}
 @import "partials/media"; // keep at bottom;

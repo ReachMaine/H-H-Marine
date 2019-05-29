@@ -35,5 +35,12 @@
 
 #main-footer #footer-widgets .et_pb_widget {
   width: 100%; }
+#main-footer #footer-bottom {
+  position: relative; }
+
+body.home #main-footer {
+  margin-top: -400px; }
+  body.home #main-footer #footer-widgets {
+    padding-top: 0px; }
 
 /* **** media **** */
