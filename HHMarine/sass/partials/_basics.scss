@@ -14,3 +14,14 @@
         height: 100%;
 	}
 }
+.et_pb_fullwidth_header.hhm-header-width100 {
+	height: inherit;
+	.et_pb_fullwidth_header_container.center {
+		width: 100%!important;
+			.header-content {
+				width: 100%!important;
+				margin-top: 0px;
+				margin-bottom: 0px;
+			}
+	}
+}

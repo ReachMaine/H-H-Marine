@@ -24,4 +24,16 @@
     width: 100%;
     height: 100%; }
 
+.et_pb_fullwidth_header.hhm-header-width100 {
+  height: inherit; }
+  .et_pb_fullwidth_header.hhm-header-width100 .et_pb_fullwidth_header_container.center {
+    width: 100% !important; }
+    .et_pb_fullwidth_header.hhm-header-width100 .et_pb_fullwidth_header_container.center .header-content {
+      width: 100% !important;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+
+#main-footer #footer-widgets .et_pb_widget {
+  width: 100%; }
+
 /* **** media **** */

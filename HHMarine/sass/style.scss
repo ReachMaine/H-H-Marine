@@ -13,6 +13,13 @@
 @import "partials/basics";
 
 
-
+#main-footer {
+  // only using one column footer - want it center
+  #footer-widgets {
+    .et_pb_widget {
+      width: 100%;
+    }
+  }
+}
 
 @import "partials/media"; // keep at bottom;
