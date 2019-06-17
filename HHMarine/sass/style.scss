@@ -11,8 +11,28 @@
 
 @import "partials/colors";
 @import "partials/basics";
+// header
+#et_mobile_nav_menu{
+  .select_page {
+    color: transparent;
+  }
+}
+#top-menu li a,
+#et_mobile_nav_menu li a {
+  line-height: 1.4em;
+}
 
-
+// content
+body.home {
+  #main-footer {
+    // only using one column footer - want it center
+    margin-top: -400px;
+    #footer-widgets {
+      padding-top: 0px;
+    }
+  }
+}
+/// footer
 #main-footer {
   // only using one column footer - want it center
   //margin-top: -400px;
@@ -24,15 +44,6 @@
   }
   #footer-bottom {
     position: relative;
-  }
-}
-body.home {
-  #main-footer {
-    // only using one column footer - want it center
-    margin-top: -400px;
-    #footer-widgets {
-      padding-top: 0px;
-    }
   }
 }
 @import "partials/media"; // keep at bottom;
