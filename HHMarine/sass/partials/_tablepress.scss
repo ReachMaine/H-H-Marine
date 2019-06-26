@@ -1,0 +1,39 @@
+
+/* styling for tables in tablepress */
+.tablepress-table-name {
+    font-family: 'Muli',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table.tablepress {
+
+  tr.odd {
+    td {
+      background-color: #e6e6e6;
+    }
+  }
+}
+// hmm classes
+
+table.tablepress.hmm-hover-yellow .row-hover { // hover color
+  tr:hover {
+    td {
+      background-color: $hmm-light-gold!important;
+    }
+  }
+}
+
+table.tablepress.hhm-col1-upper  { // uprcase the first column
+  tr td.column-1 {
+    text-transform: uppercase;
+  }
+}
+table.tablepress.hhm-col2-right  { // float 2nd column to the right
+  tr td.column-2 {
+    text-align: right;
+  }
+}
+table.tablepress.hmm-maxw-450 { // max width of the table
+  max-width: 450px!important;
+}

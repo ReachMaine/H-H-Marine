@@ -33,6 +33,27 @@
       margin-top: 0px;
       margin-bottom: 0px; }
 
+/* styling for tables in tablepress */
+.tablepress-table-name {
+  font-family: 'Muli',Helvetica,Arial,Lucida,sans-serif;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+table.tablepress tr.odd td {
+  background-color: #e6e6e6; }
+
+table.tablepress.hmm-hover-yellow .row-hover tr:hover td {
+  background-color: #efe4c6 !important; }
+
+table.tablepress.hhm-col1-upper tr td.column-1 {
+  text-transform: uppercase; }
+
+table.tablepress.hhm-col2-right tr td.column-2 {
+  text-align: right; }
+
+table.tablepress.hmm-maxw-450 {
+  max-width: 450px !important; }
+
 #et_mobile_nav_menu .select_page {
   color: transparent; }
 
