@@ -86,6 +86,14 @@ body.home #main-footer {
     margin-top: 20px;
     margin-bottom: 20px; }
 
+article.et_pb_post .hhm_caption {
+  font-size: .9em;
+  font-weight: 300;
+  text-align: right;
+  font-color: #004b9b;
+  font-style: italic;
+  margin-top: -8px; }
+
 #main-footer #footer-widgets .et_pb_widget {
   width: 100%; }
 #main-footer #footer-bottom {
