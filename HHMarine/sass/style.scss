@@ -33,6 +33,22 @@ body.home {
     }
   }
 }
+// blog styling for 1st blog post...
+.hhm-blog-img-right { // also see media...
+  .entry-title {
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+  }
+  .post-content {
+    padding-left: 20px;
+    a.more-link {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
 /// footer
 #main-footer {
   // only using one column footer - want it center

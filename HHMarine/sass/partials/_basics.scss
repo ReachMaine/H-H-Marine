@@ -25,3 +25,20 @@
 			}
 	}
 }
+
+// read more links in blog modules...
+.et_pb_posts  {
+	.post-content {
+		a.more-link {
+			display: inline-block;
+			background-color: $hhm-med-blue;
+			color: white;
+			padding: .3em 1em;
+			text-transform: uppercase;
+		}
+		a.more-link:hover {
+			color: #000000;
+			background: $hhm-gold;
+		}
+	}
+}

@@ -15,6 +15,7 @@
       padding-top: 30px!important;
   }
 }
+
 @media all and (max-width: 980px) { // break for nav menu,  woo & footer widgtes
   .et_pb_gutters3.et_pb_footer_columns1 #footer-widgets .footer-widget {
     width: 100%!important;
@@ -28,6 +29,23 @@
 }
 @media only screen and (max-width: 960px) {
 
+}
+@media only all  and (min-width: 768px) { // bigger than mobile
+  .et_pb_posts.hhm-blog-img-right {  // make image on right, text & excerpt on left;
+      article.et_pb_posts:last-child {
+        margin-bottom: 0px;
+      }
+      article.et_pb_post {
+        .entry-featured-image-url {
+          width: 40%;
+          float: right;
+          margin-bottom: 0px;
+          margin-top: -1px;
+          margin-left: 20px; // push text over a little
+        }
+
+      }
+  }
 }
 @media only all  and (max-width: 767px) {
 

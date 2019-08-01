@@ -33,6 +33,16 @@
       margin-top: 0px;
       margin-bottom: 0px; }
 
+.et_pb_posts .post-content a.more-link {
+  display: inline-block;
+  background-color: #004b9b;
+  color: white;
+  padding: .3em 1em;
+  text-transform: uppercase; }
+.et_pb_posts .post-content a.more-link:hover {
+  color: #000000;
+  background: #cbb677; }
+
 /* styling for tables in tablepress */
 .tablepress-table-name {
   font-family: 'Muli',Helvetica,Arial,Lucida,sans-serif;
@@ -66,6 +76,16 @@ body.home #main-footer {
   body.home #main-footer #footer-widgets {
     padding-top: 0px; }
 
+.hhm-blog-img-right .entry-title {
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+.hhm-blog-img-right .post-content {
+  padding-left: 20px; }
+  .hhm-blog-img-right .post-content a.more-link {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
 #main-footer #footer-widgets .et_pb_widget {
   width: 100%; }
 #main-footer #footer-bottom {
@@ -86,3 +106,12 @@ body.home #main-footer {
 
   #footer-widgets h4 {
     font-size: 30px; } }
+@media only all and (min-width: 768px) {
+  .et_pb_posts.hhm-blog-img-right article.et_pb_posts:last-child {
+    margin-bottom: 0px; }
+  .et_pb_posts.hhm-blog-img-right article.et_pb_post .entry-featured-image-url {
+    width: 40%;
+    float: right;
+    margin-bottom: 0px;
+    margin-top: -1px;
+    margin-left: 20px; } }
