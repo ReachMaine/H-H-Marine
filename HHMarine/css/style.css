@@ -108,6 +108,22 @@ article.et_pb_post .hhm_caption {
   .et_header_style_split #et-top-navigation {
     padding-top: 30px !important; } }
 @media all and (max-width: 980px) {
+  .reach-row-stackorder {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    /* Safari 6.1+ */
+    flex-wrap: wrap; }
+    .reach-row-stackorder .reach-second-at-mobile {
+      -webkit-order: 2;
+      order: 2; }
+    .reach-row-stackorder .reach-first-on-mobile {
+      -webkit-order: 1;
+      order: 1; }
+
   .et_pb_gutters3.et_pb_footer_columns1 #footer-widgets .footer-widget {
     width: 100% !important;
     margin: auto !important; }
