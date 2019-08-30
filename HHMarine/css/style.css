@@ -64,6 +64,24 @@ table.tablepress.hhm-col2-right tr td.column-2 {
 table.tablepress.hmm-maxw-450 {
   max-width: 450px !important; }
 
+/* styling for divi blog posts & archives */
+body.archive article.post {
+  border: 1px solid #c1c1c1;
+  display: flex;
+  align-items: stretch; }
+  body.archive article.post .reach-image-wrap {
+    padding-right: 10px; }
+    body.archive article.post .reach-image-wrap a.entry-featured-image-url {
+      margin-bottom: 0px; }
+
+body.single-post #main-content {
+  background-image: url(./images/post-background.jpg);
+  background-size: cover; }
+  body.single-post #main-content #content-area #left-area article {
+    margin: 0px 45px 45px 45px;
+    padding: 0px 45px 45px 45px;
+    background-color: rgba(255, 255, 255, 0.8); }
+
 #et_mobile_nav_menu .select_page {
   color: transparent; }
 
@@ -100,6 +118,9 @@ article.et_pb_post .hhm_caption {
   position: relative; }
 
 /* **** media **** */
+@media only screen and (min-width: 1024px) {
+  body.single-post #main-content #content-area #left-area article {
+    width: 60%; } }
 @media all and (max-width: 1200px) and (min-width: 981px) {
   #top-menu li.centered-inline-logo-wrap {
     width: 100% !important;
@@ -139,3 +160,9 @@ article.et_pb_post .hhm_caption {
     margin-bottom: 0px;
     margin-top: -1px;
     margin-left: 20px; } }
+@media only all and (max-width: 767px) {
+  body.single-post #main-content #content-area #left-area article {
+    margin: 0px; } }
+@media all and (max-width: 479px) {
+  body.single-post #main-content #content-area #left-area article {
+    padding: 0px 20px 20px 20px; } }

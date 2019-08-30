@@ -1,6 +1,16 @@
 /* **** media **** */
 // Divi breakpts
-
+@media only screen and (min-width: 1024px) {
+  body.single-post {
+    #main-content {
+      #content-area #left-area {
+        article {
+          width: 60%;
+        }
+      }
+    }
+  }
+}
 @media all and (max-width:1200px) and (min-width: 981px) {
   #top-menu {
     li.centered-inline-logo-wrap {
@@ -14,6 +24,7 @@
   .et_header_style_split #et-top-navigation{
       padding-top: 30px!important;
   }
+
 }
 
 @media all and (max-width: 980px) { // break for nav menu,  woo & footer widgtes
@@ -65,8 +76,25 @@
   }
 }
 @media only all  and (max-width: 767px) {
-
+  body.single-post {
+    #main-content {
+      #content-area #left-area {
+        article {
+          margin: 0px;
+        }
+      }
+    }
+  }
 }
 
 @media all and (max-width: 479px) {
+  body.single-post {
+    #main-content {
+      #content-area #left-area {
+        article {
+          padding: 0px 20px 20px 20px;
+        }
+      }
+    }
+  }
 }

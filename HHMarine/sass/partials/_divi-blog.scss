@@ -1,0 +1,39 @@
+/* styling for divi blog posts & archives */
+
+
+// archives
+body.archive {
+  article.post {
+    border: 1px solid $hhm-light-border;
+    display: flex;
+    align-items: stretch;
+    .reach-image-wrap {
+      padding-right: 10px;
+      a.entry-featured-image-url {
+        margin-bottom: 0px;
+          img {
+
+          }
+      }
+    } // image wrap
+    .reach-archive-content-wrap {
+
+    }
+
+  } // post
+}
+
+// single posts
+body.single-post {
+  #main-content {
+    background-image: url(./images/post-background.jpg);
+    background-size: cover;
+    #content-area #left-area {
+      article {
+        margin: 0px 45px 45px 45px;
+        padding: 0px 45px 45px 45px;
+        background-color: rgba(255,255,255,0.8);
+      }
+    }
+  }
+}
