@@ -42,3 +42,8 @@
 		}
 	}
 }
+#hhm_video.et_pb_section_video { // video on front, stick to bottom of video.
+	.mejs-container {
+				bottom: 0px;
+	}
+}

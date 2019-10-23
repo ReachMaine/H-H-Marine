@@ -43,6 +43,9 @@
   color: #000000;
   background: #cbb677; }
 
+#hhm_video.et_pb_section_video .mejs-container {
+  bottom: 0px; }
+
 /* styling for tables in tablepress */
 .tablepress-table-name {
   font-family: 'Muli',Helvetica,Arial,Lucida,sans-serif;
