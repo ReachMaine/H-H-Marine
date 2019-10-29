@@ -12,6 +12,13 @@
   }
 }
 @media all and (max-width:1200px) and (min-width: 981px) {
+  .et_header_style_split #main-header {
+    #top-menu {
+      li.centered-inline-logo-wrap {
+        height: 113px!important;
+      }
+    }
+  }
   #top-menu {
     li.centered-inline-logo-wrap {
       width: 100%!important;
@@ -21,6 +28,13 @@
 }
 // non-nav menu
 @media only screen and (min-width: 981px) {
+  .et_header_style_split #main-header {
+    #top-menu {
+      li.centered-inline-logo-wrap {
+        height: 113px!important;
+      }
+    }
+  }
   .et_header_style_split #et-top-navigation{
       padding-top: 30px!important;
   }

@@ -125,10 +125,16 @@ article.et_pb_post .hhm_caption {
   body.single-post #main-content #content-area #left-area article {
     width: 60%; } }
 @media all and (max-width: 1200px) and (min-width: 981px) {
+  .et_header_style_split #main-header #top-menu li.centered-inline-logo-wrap {
+    height: 113px !important; }
+
   #top-menu li.centered-inline-logo-wrap {
     width: 100% !important;
     margin-bottom: 0px !important; } }
 @media only screen and (min-width: 981px) {
+  .et_header_style_split #main-header #top-menu li.centered-inline-logo-wrap {
+    height: 113px !important; }
+
   .et_header_style_split #et-top-navigation {
     padding-top: 30px !important; } }
 @media all and (max-width: 980px) {
