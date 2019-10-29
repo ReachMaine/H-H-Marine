@@ -85,6 +85,21 @@ body.single-post #main-content {
     padding: 0px 45px 45px 45px;
     background-color: rgba(255, 255, 255, 0.8); }
 
+/* gravity forms styling */
+.gform_wrapper .gform_footer input[type=submit] {
+  color: white;
+  padding: 6px 20px;
+  border-width: 0px;
+  font-size: 20px !important;
+  text-align: center;
+  cursor: pointer;
+  background-color: #004b9b; }
+.gform_wrapper .gform_footer input[type=submit]:hover {
+  background-color: #cbb677;
+  color: black; }
+.gform_wrapper .gform_footer .gform_save_link {
+  border-width: 2px; }
+
 #et_mobile_nav_menu .select_page {
   color: transparent; }
 

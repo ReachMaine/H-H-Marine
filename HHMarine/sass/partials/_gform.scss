@@ -9,9 +9,13 @@
 		    font-size: 20px!important;
 		    text-align: center;
 		    cursor: pointer;
-				background-color: $ats_orange;
+				background-color: $hhm-med-blue;
 				//line-height: 1.7em;
 			}
+		input[type=submit]:hover {
+			background-color: $hhm-gold;
+			color: black;
+		}
 			.gform_save_link {
 				border-width: 2px;
 			}
