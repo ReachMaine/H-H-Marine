@@ -1,5 +1,6 @@
 <?php /*
 	zig - wrap title & excerpt/content in div for styling
+	  -  add divi section to bottom for waves
 */ ?>
 <?php get_header(); ?>
 
@@ -60,7 +61,8 @@
 						et_divi_post_meta();
 
 						if ( 'on' !== et_get_option( 'divi_blog_style', 'false' ) || ( is_search() && ( 'on' === get_post_meta( get_the_ID(), '_et_pb_use_builder', true ) ) ) ) {
-							truncate_post( 270 );
+							//truncate_post( 270 );
+							the_excerpt();
 						} else {
 							the_content();
 						}
@@ -85,6 +87,7 @@
 			<?php  get_sidebar();  ?>
 		</div> <!-- #content-area -->
 	</div> <!-- .container -->
+		<?php echo do_shortcode('[et_pb_section global_module="2747"][/et_pb_section]'); /* zig */ ?>
 </div> <!-- #main-content -->
 
 <?php

@@ -68,14 +68,26 @@ table.tablepress.hmm-maxw-450 {
   max-width: 450px !important; }
 
 /* styling for divi blog posts & archives */
-body.archive article.post {
-  border: 1px solid #c1c1c1;
-  display: flex;
-  align-items: stretch; }
-  body.archive article.post .reach-image-wrap {
-    padding-right: 10px; }
-    body.archive article.post .reach-image-wrap a.entry-featured-image-url {
+body.archive #main-content {
+  background-image: url(./images/ocean-map-blue.jpg);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat; }
+  body.archive #main-content article.post {
+    border: 1px solid #c1c1c1;
+    display: flex;
+    align-items: stretch;
+    background-color: white; }
+    body.archive #main-content article.post .reach-image-wrap a.entry-featured-image-url {
       margin-bottom: 0px; }
+      body.archive #main-content article.post .reach-image-wrap a.entry-featured-image-url img {
+        max-width: 300px; }
+    body.archive #main-content article.post .reach-archive-content-wrap {
+      padding: 10px; }
+      body.archive #main-content article.post .reach-archive-content-wrap h2.entry-title {
+        padding-bottom: 0px; }
+      body.archive #main-content article.post .reach-archive-content-wrap .post-meta {
+        display: none; }
 
 body.single-post #main-content {
   background-image: url(./images/post-background.jpg);
@@ -123,7 +135,7 @@ body.home #main-footer {
     margin-bottom: 20px; }
 
 article.et_pb_post .hhm_caption {
-  font-size: .9em;
+  font-size: 12px;
   font-weight: 300;
   text-align: right;
   font-color: #004b9b;
@@ -153,7 +165,7 @@ article.et_pb_post .hhm_caption {
   .et_header_style_split #et-top-navigation {
     padding-top: 30px !important; } }
 @media all and (max-width: 980px) {
-  .reach-row-stackorder {
+  .rmm-row-stackorder {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -162,10 +174,10 @@ article.et_pb_post .hhm_caption {
     -webkit-flex-wrap: wrap;
     /* Safari 6.1+ */
     flex-wrap: wrap; }
-    .reach-row-stackorder .reach-second-at-mobile {
+    .rmm-row-stackorder .rmm-second-on-mobile {
       -webkit-order: 2;
       order: 2; }
-    .reach-row-stackorder .reach-first-on-mobile {
+    .rmm-row-stackorder .rmm-first-on-mobile {
       -webkit-order: 1;
       order: 1; }
 
@@ -184,9 +196,11 @@ article.et_pb_post .hhm_caption {
     margin-bottom: 0px;
     margin-top: -1px;
     margin-left: 20px; } }
-@media only all and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   body.single-post #main-content #content-area #left-area article {
-    margin: 0px; } }
+    margin: 0px; }
+    body.single-post #main-content #content-area #left-area article h1.entry-title {
+      font-size: 28px; } }
 @media all and (max-width: 479px) {
   body.single-post #main-content #content-area #left-area article {
     padding: 0px 20px 20px 20px; } }

@@ -3,25 +3,38 @@
 
 // archives
 body.archive {
-  article.post {
-    border: 1px solid $hhm-light-border;
-    display: flex;
-    align-items: stretch;
-    .reach-image-wrap {
-      padding-right: 10px;
-      a.entry-featured-image-url {
-        margin-bottom: 0px;
-          img {
-
+  #main-content {
+    background-image: url(./images/ocean-map-blue.jpg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    article.post {
+      border: 1px solid $hhm-light-border;
+      display: flex;
+      align-items: stretch;
+      background-color: white;
+      .reach-image-wrap {
+          a.entry-featured-image-url {
+            margin-bottom: 0px;
+              img {
+                max-width:300px;
+              }
           }
-      }
-    } // image wrap
-    .reach-archive-content-wrap {
-
-    }
-
-  } // post
-}
+       } // image wrap
+      .reach-archive-content-wrap {
+        padding: 10px;
+        h2.entry-title {
+          padding-bottom: 0px;
+        }
+        .post-meta {
+          //font-size: .6em!important;
+          //padding-bottom: 0px;
+          display: none;
+        }
+      } // content-wrap
+    } // article
+  } // main-content
+} // archive
 
 // single posts
 body.single-post {

@@ -42,7 +42,7 @@
 }
 
 @media all and (max-width: 980px) { // break for nav menu,  woo & footer widgtes
-  .reach-row-stackorder {
+  .rmm-row-stackorder {
 		display: -webkit-box;
 		display: -moz-box;
 		display: -ms-flexbox;
@@ -50,11 +50,11 @@
 		display: flex;
 		-webkit-flex-wrap: wrap; /* Safari 6.1+ */
 		flex-wrap: wrap;
-		.reach-second-at-mobile {
+    .rmm-second-on-mobile {
 			-webkit-order: 2;
 			order: 2;
 		}
-		.reach-first-on-mobile {
+    .rmm-first-on-mobile {
 			-webkit-order: 1;
 			order: 1;
 		}
@@ -89,12 +89,15 @@
       }
   }
 }
-@media only all  and (max-width: 767px) {
+@media only screen  and (max-width: 767px) {
   body.single-post {
     #main-content {
       #content-area #left-area {
         article {
           margin: 0px;
+          h1.entry-title {
+            font-size: 28px;
+          }
         }
       }
     }

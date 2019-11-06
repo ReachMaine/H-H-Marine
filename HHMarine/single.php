@@ -1,5 +1,7 @@
 <?php
-
+/* mods
+* 6Nov19 zig - add global library section to bottom 
+*/
 get_header();
 
 $show_default_title = get_post_meta( get_the_ID(), '_et_pb_show_title', true );
@@ -167,6 +169,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 		</div> <!-- #content-area -->
 	</div> <!-- .container -->
 	<?php endif; ?>
+		<?php echo do_shortcode('[et_pb_section global_module="2747"][/et_pb_section]'); /* zig */ ?>
 </div> <!-- #main-content -->
 
 <?php
